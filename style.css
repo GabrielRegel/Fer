@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+.island{
+    background-color: rgb(43, 43, 43);
+    height: 25px;
+    width: 125px;
+    border-radius: 0 0 15px 15px;
+    position: absolute;
+    top: 6%; left: 45.75%;
+}
+
+.tela{
+    display: flex;
+    background-position-x: top;
+    background-image: url("https://th.bing.com/th/id/OIP.0-ma5W4nufFV8pc4wefXBwHaQC?rs=1&pid=ImgDetMain");
+    height: 650px;
+    width: 330px;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 35px;
+    border: 6px solid rgb(43, 43, 43);
+    box-shadow: 0px 0px 30px 5px  rgb(255, 255, 255);
+}
+
+.mensage{
+    background-color: rgb(170, 170, 170);
+    border: 3px solid black;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    width: 300px;
+}
+
+h2,h3{
+    font-family: cursive;
+    margin-top: -0px;
+    margin-left: 10px;
+}
+
+h3{
+    margin-top: -40px;
+    padding-bottom: 5px;
+    width: 280px;
+    border-bottom: 2px solid black;
+    
+}
+
+.barradeacao{
+    position: absolute;
+    top: 92%; left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px 6px rgba(128, 128, 128, 0.223);
+    background-color: rgba(91, 91, 91, 0.814);
+    height: 6px;
+    width: 150px;
+    border-radius: 3px;
+}
+.text{
+    font-family: cursive;
+    position: absolute;
+    top: 51%; left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 0px;
+    font-size: 95%;
+}
+button{
+    display: flex;
+    position: absolute;
+    top: 67%; left: 44.5%;
+    transform: translate(-50%, -50%);
+    height: 35px; width: 100px;
+    border-radius: 10px;
+}
+#Ignorar{
+    background-color: rgb(255, 0, 0);
+    padding: 10px;
+    padding-left: 25px;
+    padding-bottom: 8px;
+}
+#Aceitar{
+    margin-left: 165px;
+    background-color: rgb(0, 255, 0);
+    padding: 10px;
+    padding-left: 25px;
+    padding-bottom: 8px;
+}
